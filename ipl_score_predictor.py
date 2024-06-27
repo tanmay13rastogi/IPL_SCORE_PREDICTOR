@@ -5,7 +5,7 @@ import math
 st.set_page_config(page_title="IPL Score Predictor",layout="centered")
 
 from joblib import load
-model=load("ipl_model.joblib")
+model=load('ipl_model.joblib')
 
 
 st.markdown("<h1 style='text-align: center; color: white;'> IPL Score Predictor </h1>", unsafe_allow_html=True)
